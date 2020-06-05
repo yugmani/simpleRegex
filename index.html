@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Regex</title>
+    <style>
+        .container {
+            width:60%;
+            margin:0 auto;
+            padding:20px;
+            background-color:gray;
+            text-align:center
+        }
+
+        form {
+            width:70%;
+            margin:0 auto;
+            padding:15px;
+            text-align:left;
+            background-color:whitesmoke;
+        }
+        #regex {
+            margin:0 auto;
+            background-color:lightgray;
+            width:70%;
+            height:150px;
+            padding:15px;
+        }
+
+        input {
+            padding:8px;
+            margin:10px;
+        }
+        button {
+            width:150px;
+            padding:5px;
+            margin:10px;
+            background-color:violet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Regular Expresssions with Flags</h1>
+        <form>
+            <label for="name" >Enter your name:</label>
+            <input type="text" id="name" name="name"> <br>
+            <label for = "age">Enter your age:</label>
+            <input type="text" id = "age" name = "age"><br>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+        
+        <div id="regex"></div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
